@@ -5,22 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Himendra Bohara | Cybersecurity Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/your-code.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
-    <!-- Navigation -->
     <nav>
         <div class="logo">HB<span>_</span></div>
         <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
+            <li><a href="#projects">Operations</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
-    <!-- Hero Section -->
     <header class="hero">
         <div class="terminal-window">
             <div class="terminal-header">
@@ -32,51 +30,71 @@
             <div class="terminal-body">
                 <p><span class="prompt">guest@portfolio:~$</span> whoami</p>
                 <h1>Himendra Bohara</h1>
-                <p class="subtitle">Cybersecurity Student & Ethical Hacker</p>
-                <p><span class="prompt">guest@portfolio:~$</span> cat goals.txt</p>
-                <p>Securing the digital frontier through penetration testing and network defense.</p>
+                <p class="subtitle">Cybersecurity Student & System Administrator</p>
+                <p><span class="prompt">guest@portfolio:~$</span> cat bio.txt</p>
+                <p>Focusing on Network Defense, Pentesting, and Windows/Linux Administration. Fluent in English, Hindi, and Nepali.</p>
                 <div class="cta-btns">
-                    <a href="#projects" class="btn primary">View Work</a>
-                    <a href="resume.pdf" class="btn secondary">Download CV</a>
+                    <a href="#projects" class="btn primary">View Operations</a>
+                    <a href="mailto:hemendra.bohara@gmail.com" class="btn secondary">Contact Me</a>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- Skills Section -->
     <section id="skills" class="skills">
         <h2>Technical Arsenal</h2>
         <div class="skill-grid">
             <div class="skill-card">
-                <i class="fas fa-shield-alt"></i>
-                <h3>Pentesting</h3>
-                <p>Metasploit, Nmap, Burp Suite</p>
+                <i class="fas fa-user-shield"></i>
+                <h3>Security</h3>
+                <p>Burp Suite, SQLi, XSS, John the Ripper, Yara, GPG</p>
             </div>
             <div class="skill-card">
-                <i class="fas fa-code"></i>
-                <h3>Security Scripting</h3>
-                <p>Python, Bash, C++</p>
+                <i class="fas fa-server"></i>
+                <h3>SysAdmin</h3>
+                <p>Windows Server 2019, Active Directory, GPO, Ubuntu</p>
             </div>
             <div class="skill-card">
-                <i class="fas fa-network-wired"></i>
-                <h3>Network Security</h3>
-                <p>Wireshark, IDS/IPS, Firewalls</p>
+                <i class="fas fa-cloud"></i>
+                <h3>Cloud & Web</h3>
+                <p>AWS (IAM), IIS, Apache, DNS/DHCP</p>
             </div>
         </div>
     </section>
 
-    <!-- Project Section -->
     <section id="projects" class="projects">
         <h2>Recent Operations</h2>
         <div class="project-container">
             <div class="project-card">
                 <div class="project-info">
-                    <h3>Vulnerability Scanner</h3>
-                    <p>Automated Python script to identify open ports and outdated services.</p>
-                    <span class="tag">Python</span><span class="tag">Socket</span>
+                    <h3>Web App Security Lab</h3>
+                    <p>Performed XSS and SQLi attacks using Burp Suite and WebGoat to analyze vulnerabilities.</p>
+                    <span class="tag">Burp Suite</span><span class="tag">Security</span>
                 </div>
             </div>
-            <!-- Add more project cards here -->
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Enterprise Net Admin</h3>
+                    <p>Configured AD DS, DNS, and cross-platform sharing (Samba/NFS) between Windows & UNIX.</p>
+                    <span class="tag">Active Directory</span><span class="tag">Linux</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Malware & Forensics</h3>
+                    <p>Deployed Yara rules for code identification and simulated password cracking with John the Ripper.</p>
+                    <span class="tag">Yara</span><span class="tag">Forensics</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Connection</h2>
+        <div class="contact-info">
+            <p><i class="fas fa-envelope"></i> hemendra.bohara@gmail.com</p>
+            <p><i class="fas fa-phone"></i> 347-680-2870</p>
+            <p><i class="fab fa-linkedin"></i> linkedin.com/in/himendra-bohara</p>
         </div>
     </section>
 
